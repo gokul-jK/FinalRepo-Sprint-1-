@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pageheadings{
+    padding: 30px 0px;
+    text-align: center;
+}
+i 
+{
+    font-style: italic;
+}
+.info-container-li {
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+li 
+{
+    text-align: -webkit-match-parent;
+}
+.info-container-ul 
+{
+    list-style: none;
+}
+body {
+    background-image: url("https://mycompany.photo/wp-content/uploads/2021/02/yatra-travels.webp");
+    font-family: "Lato Regular";
+    font-size: 0.9333rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.form-container {
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 24%);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 380px;
+}
+.login-container {
+    display: block;
+    float: left;
+    width: 300px;
+}
+.info-container {
+    width: 325px;
+    margin-left: 15px;
+    float: left;
+}
+input[type=text],input[type=password]  {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] ,input[type=button]{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login:hover {
+    background-color: #feeab8;
+}
+.Register:hover {
+  background-color: #feeab8;
+}
+.Profile{
+    width: 150px;
+}
+.imgcontainer{
+    text-align: center;
+}
+.login, .Register{
+    width: 30%;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #f76b38;
+    border: none;
+    padding: 5px;
+}
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  loat: left;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+} 
+.info-container .info-container-header {
+    background-color: #feeab8;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+.info-container .info-container-body {
+    background-color: #fef2d8;
+    float: left;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.icon-ico {
+    display: inline-block;
+    height: 21px;
+    width: 9%;
+    float: left;
+    color: #f76b38;
+    background: url("https://secure.yatra.com/content/social/images/New-Social-Webcore-Sprite.png");
+    background-repeat: no-repeat;
+}
+.ico-cal {
+    background-position: 1px -2px;
+}
+.ico-air-tick {
+    background-position: 1px -31px;
+}
+.ico-note {
+    background-position: 1px -63px;
+}
+.ico-e-cash {
+    background-position: 1px -102px;
+}
+.ico-e-cash-transport {
+    background-position: 1px -132px;
+}
+.ico-e-cash-shop {
+    background-position: 1px -162px;
+}
+.ico-sme {
+    background-position: 1px -195px;
+}
+#username,#password{
+text-align:center;
+    margin-left:10%;
+    margin-top:8%;
+    width:250px;
+border: solid orange;
+border-width: 0 0 4px;
+}
+
+#remember{
+margin-left:33%;
+}
+.login{
+cursor:pointer;
+font-size:20px;
+margin-left:33%;
+}
+.psw{
+margin-left:25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

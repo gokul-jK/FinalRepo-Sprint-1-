@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head><title>Registration Page</title>
+<link rel="stylesheet" href="./CSS/register.css">
+<script src="./JS/main.js"></script>
+</head>
+<body>
+<form action="./login.html" id="regform">
+    
+        <h1>REGISTER / SIGN_UP</h1>
+        <div>
+        <label>First Name</label>
+        </br> <input id="fn" name="fname" type="text" size="20" placeholder="First Name" required/>
+        </div>
+        <div>
+        <label>Last Name</label>
+        </br> <input id="ln" name="lname" type="text" size="20" placeholder="Last Name" required/>
+        </div>
+        <div>
+        <label>User Name</label>
+        </br><input id="user" type="Text" placeholder="Your User Name" required/>
+        </div>
+        <div>
+        <label>Email ID</label>
+        </br><input id="email"  name="email" type="Email" size="30" placeholder="Your Email" required/>
+        </div>
+        <label>Mobile Number</label>
+        </br><input id="mn" type="text" name="idNumber" required pattern="[0-9]{10}" placeholder="Your Mobile Number">
+        </div>
+        <div>
+        <label>Password</label>
+        </br><input id="pass" type="Password" placeholder="Your Password" required/>
+        </div>
+        <div>
+        <label>Confirm Password</label>
+        </br><input id="Cpass" type="Password"   placeholder="Confirm Password" required/>
+        </div>
+        <p id="invalid"></p>
+        <input id="cb1" type="checkbox" name="register" value="I would like to be kept informed of Special Promotions and offers by Yatra"/> I would like to be kept informed of Special Promotions and offers by Yatra.
+        <br/>
+        <br/>
+        <input id="cb" type="checkbox" name="register" value="I would like to get WhatsApp notifications"/>I would like to get What'sApp notifications.
+        <br/>
+        <br/>
+    <button id="reg" onclick="valid()">REGISTER</button>
+    <br/>
+    <h4>Instructions</h4>
+    <ol>
+    <li>Password should Contain atleast one UpperCase & LowerCase.</li>
+    <li>Password should Contain atleast one Symbol</li>
+    <li>Password should Contain atleast one Number</li>
+    <li>Password should Contain atleast 8 letters & Maximum 50 letters</li>
+    </ol>
+    
+    </form>
+</body>
+</html>
